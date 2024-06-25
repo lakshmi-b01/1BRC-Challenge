@@ -29,6 +29,7 @@ public class BRCStreams {
 		long end = System.currentTimeMillis();
         long executionTime = end - start;
 
+        System.out.println();
         System.out.println("Execution time: " + executionTime + " milliseconds");
 
 	}
